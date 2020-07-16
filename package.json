@@ -16,7 +16,7 @@
     "google-oauth-jwt": "^0.1.7",
     "hiredis": "^0.4.0",
     "js-yaml": "^3.2.7",
-    "lodash": "^3.5.0",
+    "lodash": "^4.17.19",
     "markdown-it": "^4.1.0",
     "markdown-it-anchor": "^1.0.0",
     "moment": "~2.19.3",
