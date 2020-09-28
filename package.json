@@ -10,7 +10,7 @@
     "url": "https://github.com/ft-interactive/bertha.git"
   },
   "dependencies": {
-    "@financial-times/sheet-reader": "1.0.0-alpha.2",
+    "@financial-times/sheet-reader": "^1.0.0-alpha.3",
     "buffer-crc32": "~0.2.5",
     "d3": "^3.5.5",
     "express": "~3.3.6",
