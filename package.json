@@ -29,7 +29,7 @@
     "should": "~1.2.1"
   },
   "engines": {
-    "node": "^8.1.2"
+    "node": "^12"
   },
   "cacheDirectories": [
     "node_modules"
