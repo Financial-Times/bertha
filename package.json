@@ -1,36 +1,35 @@
 {
   "name": "bertha",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node lib/worker & node lib/web",
-    "start:dev": "node -r dotenv/config lib/worker & node -r dotenv/config lib/web"
+    "start": "node lib/worker & node lib/web"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/financial-times/bertha.git"
+    "url": "https://github.com/ft-interactive/bertha.git"
   },
   "dependencies": {
-    "@financial-times/sheet-reader": "^1.0.0",
     "buffer-crc32": "~0.2.5",
-    "d3-dsv": "^3.0.1",
-    "express": "^3.21.2",
+    "d3": "^3.5.5",
+    "express": "~3.3.6",
     "google-oauth-jwt": "^0.1.7",
-    "js-yaml": "^3.14.1",
-    "lodash": "^4.17.21",
+    "hiredis": "^0.4.0",
+    "js-yaml": "^3.2.7",
+    "lodash": "^3.5.0",
     "markdown-it": "^4.1.0",
     "markdown-it-anchor": "^1.0.0",
     "moment": "~2.19.3",
-    "redis": "^3.1.2",
+    "redis": "^0.12.1",
     "request": "^2.61.0",
     "yaml": "^0.2.3"
   },
   "devDependencies": {
-    "dotenv": "^10.0.0",
-    "mocha": "^9.0.3",
+    "mocha": "~1.8.1",
     "should": "~1.2.1"
   },
   "engines": {
-    "node": "^15"
-  }
+    "node": "^8.1.2"
+  },
+  "cacheDirectories": ["node_modules"]
 }
