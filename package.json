@@ -1,16 +1,16 @@
 {
   "name": "bertha",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node lib/worker & node lib/web"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ft-interactive/bertha.git"
+    "url": "https://github.com/financial-times/bertha.git"
   },
   "dependencies": {
-    "@financial-times/sheet-reader": "^1.0.0-alpha.3",
+    "@financial-times/sheet-reader": "^1.0.0",
     "buffer-crc32": "~0.2.5",
     "d3-dsv": "^3.0.1",
     "express": "^3.21.2",
@@ -29,9 +29,6 @@
     "should": "~1.2.1"
   },
   "engines": {
-    "node": "^12"
-  },
-  "cacheDirectories": [
-    "node_modules"
-  ]
+    "node": "^15"
+  }
 }
