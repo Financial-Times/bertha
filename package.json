@@ -13,11 +13,10 @@
     "@financial-times/sheet-reader": "^1.0.0-alpha.3",
     "buffer-crc32": "~0.2.5",
     "d3": "^3.5.5",
-    "express": "~3.3.6",
+    "express": "^4.17.1",
     "google-oauth-jwt": "^0.1.7",
-    "hiredis": "^0.4.0",
-    "js-yaml": "^3.2.7",
-    "lodash": "^3.5.0",
+    "js-yaml": "^3.14.1",
+    "lodash": "^4.17.21",
     "markdown-it": "^4.1.0",
     "markdown-it-anchor": "^1.0.0",
     "moment": "~2.19.3",
@@ -26,7 +25,7 @@
     "yaml": "^0.2.3"
   },
   "devDependencies": {
-    "mocha": "~1.8.1",
+    "mocha": "^9.0.3",
     "should": "~1.2.1"
   },
   "engines": {
