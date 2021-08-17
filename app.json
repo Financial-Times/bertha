@@ -5,7 +5,7 @@
   "success_url": "/",
   "env": {
     "APPLICATION_NAME": {
-      "value": "Bertha",
+      "value": "Bertha"
     },
     "MONITOR_QUEUE_ERRORS": {
       "value": "error"
