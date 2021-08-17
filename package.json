@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node lib/worker & node lib/web"
+    "start": "node lib/worker & node lib/web",
+    "start:dev": "node -r dotenv/config lib/worker & node -r dotenv/config lib/web"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "yaml": "^0.2.3"
   },
   "devDependencies": {
+    "dotenv": "^10.0.0",
     "mocha": "^9.0.3",
     "should": "~1.2.1"
   },
