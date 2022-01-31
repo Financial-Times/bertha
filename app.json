@@ -30,6 +30,9 @@
     },
     "GOOGLE_SERVICE_KEY": {
       "required": true
+    },
+    "SYSTEM_CODE": {
+      "value": "bertha"    
     }
   },
   "image": "heroku/nodejs",
