@@ -21,7 +21,7 @@
     "lodash": "^4.17.21",
     "markdown-it": "^4.1.0",
     "markdown-it-anchor": "^1.0.0",
-    "moment": "~2.19.3",
+    "moment": "~2.29.4",
     "redis": "^0.12.1",
     "request": "^2.61.0",
     "yaml": "^0.2.3"
