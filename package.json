@@ -16,6 +16,7 @@
     "d3": "^3.5.17",
     "d3-dsv": "^3.0.1",
     "express": "^3.21.2",
+    "express-rate-limit": "^5.5.1",
     "google-oauth-jwt": "^0.1.7",
     "js-yaml": "^3.14.1",
     "lodash": "^4.17.21",
