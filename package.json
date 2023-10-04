@@ -11,7 +11,7 @@
     "url": "https://github.com/financial-times/bertha.git"
   },
   "dependencies": {
-    "@financial-times/sheet-reader": "^1.0.0",
+    "@financial-times/sheet-reader": "^1.0.9",
     "buffer-crc32": "~0.2.5",
     "d3": "^3.5.17",
     "d3-dsv": "^3.0.1",
