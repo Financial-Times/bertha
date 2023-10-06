@@ -27,7 +27,7 @@
     "moment": "~2.19.3",
     "morgan": "^1.10.0",
     "redis": "^3.1.2",
-    "request": "^2.61.0",
+    "request": "^2.88.2",
     "serve-favicon": "^2.5.0",
     "serve-static": "^1.15.0",
     "yaml": "^0.2.3"
