@@ -31,6 +31,9 @@
     "GOOGLE_SERVICE_KEY": {
       "required": true
     },
+    "GOOGLE_CLIENT_SCOPES": {
+      "required": true
+    },
     "SYSTEM_CODE": {
       "value": "bertha"    
     }
