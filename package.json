@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node lib/worker & node lib/web",
-    "start:dev": "node -r dotenv/config lib/worker & node -r dotenv/config lib/web"
+    "start": "node --no-experimental-fetch lib/worker & node --no-experimental-fetchlib/web",
+    "start:dev": "node --no-experimental-fetch -r dotenv/config lib/worker & node --no-experimental-fetch -r dotenv/config lib/web"
   },
   "repository": {
     "type": "git",
@@ -34,9 +34,9 @@
     "should": "~1.2.1"
   },
   "engines": {
-    "node": "^16"
+    "node": "18.x"
   },
   "volta": {
-    "node": "16.19.0"
+    "node": "18.18.0"
   }
 }
