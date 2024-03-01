@@ -49,7 +49,7 @@ $ redis-server
 
 ### Logs
 
-Heroku router and app logs are sent to Splunk via the Heroku log drain.
+Logs are sent to Splunk via the Heroku log drain. There is also a [Splunk dashboard](https://financialtimes.splunkcloud.com/en-GB/app/search/bertha).
 
 Query the logs:
 
