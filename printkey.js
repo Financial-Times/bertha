@@ -2,7 +2,7 @@
 * First make sure you have converted the `.p12` file (downloaded from the Google Developer console) in a `.pem` using this command:
 *
 * ```shell
-* $ openssl pkcs12 -in key.p12 -passin pass:notasecret -nodes -out key.pem
+* $ openssl pkcs12 -in key.p12 -passin pass:notasecret -nodes -legacy -out key.pem
 * ```
 */
 
