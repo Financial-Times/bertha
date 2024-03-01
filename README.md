@@ -10,18 +10,40 @@ Bertha is a machine that can produce any item requested of her.
 
 ### Prerequisites
 
-You will need to be logged into Heroku-cli - find instructions [in the Next wiki](https://github.com/Financial-Times/next/wiki/Heroku#single-sign-on). You will also need Redis installed (`brew install redis` or [follow instructions here](https://redis.io/topics/quickstart)).
+Setup tooling
 
-### First time
+* [Heroku CLI](https://github.com/Financial-Times/next/wiki/Heroku)
+* [Doppler CLI](https://docs.doppler.com/docs/install-cli)
+* [Volta](https://docs.volta.sh/guide/getting-started)
+* [Redis](https://redis.io/docs/install/install-redis/install-redis-on-mac-os/)
 
-The first time you run Bertha you'll need a `.env` file. You can copy this from staging by running the following command in your terminal: `heroku config -s -a ft-ig-bertha-s > .env`
+then install the dependencies
 
-### Every time
+```
+$ npm i
+```
 
-- From the terminal run `redis-server`
-- From a different tab run `heroku local`
+### Start
 
-From there you should see which port the server is running on and visit the correct url according to the [user docs](https://github.com/ft-interactive/bertha/wiki/Tutorial)
+```
+$ npm start
+```
+
+The application will now be available on [http://localhost:3000/]. A (simple test sheet](http://localhost:3000/view/publish/gss/1WwwQqmkTz5zwq1fV0rrSG9JVfrpComLvqxyadj0qnG8/Test) is used to demonstrate everything working. From there you can visit the correct url according to the [user docs](https://github.com/ft-interactive/bertha/wiki/Tutorial).
+
+You may overide the port thus:
+
+```
+$ PORT=8888 npm start
+```
+
+### Redis
+
+If you find your local Redis isn't running/unreachable you can start it in another terminal/process
+
+```
+$ redis-server
+```
 
 ## Production
 

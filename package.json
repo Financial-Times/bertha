@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node --no-experimental-fetch lib/worker & node --no-experimental-fetchlib/web",
-    "start:dev": "node --no-experimental-fetch -r dotenv/config lib/worker & node --no-experimental-fetch -r dotenv/config lib/web"
+    "start": "doppler run --command=\"nodemon --exec 'heroku local -p ${PORT:-3000}' --signal SIGTERM\""
   },
   "repository": {
     "type": "git",
@@ -28,15 +27,13 @@
     "serve-favicon": "^2.5.0",
     "serve-static": "^1.15.0"
   },
-  "devDependencies": {
-    "dotenv": "^10.0.0",
-    "mocha": "^9.0.3",
-    "should": "~1.2.1"
-  },
   "engines": {
     "node": "18.x"
   },
   "volta": {
     "node": "18.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
