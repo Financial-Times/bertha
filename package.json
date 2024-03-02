@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "doppler run --command=\"nodemon --exec 'heroku local -p ${PORT:-3000}' --signal SIGTERM\""
+    "start": "doppler run --command=\"nodemon --exec 'heroku local -p ${PORT:-3000}' --signal SIGTERM\"",
+    "test.smoke": "HURL_baseurl=${BASE_URL:-http://localhost:${PORT:-3000}} hurl --test *.hurl",
+    "test.smoke.prod": "HURL_baseurl=https://bertha.ig.ft.com hurl --test *.hurl"
   },
   "repository": {
     "type": "git",
