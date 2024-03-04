@@ -90,3 +90,7 @@ index=heroku source=bertha
 There are checks in Pingdom.
 
 The app does not have a `/__health` endpoint because if it is unhealthy the app is down and Pingdom checks will fail.
+
+### Key management
+
+This is documented in [Biz Ops](https://biz-ops.in.ft.com/System/bertha#secrets-management)
